@@ -11,6 +11,7 @@ namespace Phase1Section4._4
         static void Main(string[] args)
         {
             runApp();
+            Console.ReadLine();
         }
 
         public static void runApp()
@@ -59,7 +60,7 @@ namespace Phase1Section4._4
             }
             Console.WriteLine("TOTAL = " + total + "/600 = " + (total * 100 / 600) + " percent");
 
-            Console.ReadLine();
+            
         }
         
     }
